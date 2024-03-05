@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pokédex</h1>
+        <i id="pokeball" class="iconify" data-icon="mdi-pokeball"></i>
+    </header>
+
+    <main>
+        <div class="container">
+            <form>
+                <input type="text" name="pokemon" id="searchPokemon">
+                <button id="btSearchPokemon">Procurar pokemon</button>
+            </form>
+            <div class="card">
+
+            </div>
+        </div>
+        <div id="pokedex" class="void">
+            <h2>Não há Pokemons na sua lista!</h2>
+            <div id="filter" class="input-filter-hidden">
+                <input id="filterPokemon" type="text">
+                <label class="label-filter-empty">ID | Tipo | Nome</label>
+                <i id="magnify" class="iconify" data-icon="mdi-magnify"></i>
+            </div>
+            <ul  id="list"></ul>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>

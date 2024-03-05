@@ -1,0 +1,257 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: #eceaea;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+#pokeball {
+    width: 2%;
+    height: 2%;
+}
+
+.container {
+    display: flex;
+    margin-top: 15px;
+    height: 60%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container form {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+}
+
+.container input {
+    height: 25%;
+    width: 45%;
+    margin-top: 5px;
+    background-color: #eceaea;
+    font-size: 2rem;
+    color: black;
+    position: relative;
+}
+
+.container button {
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 10%;
+    height: 43px;
+    background-color: rgb(160, 155, 155);
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    height: 350px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+#add {
+    position: absolute;
+    height: 8%;
+    width: 10%;
+    margin-top: -19%;
+    margin-left: 18%;
+}
+
+#remove {
+    position: absolute;
+    height: 8%;
+    width: 10%;
+    margin-top: -19%;
+    margin-left: 18%;
+}
+
+#img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+
+.img-card {
+    width: 55%;
+    margin-bottom: 3rem;
+    position: relative;
+
+}
+
+.img-card-gif {
+    width: 40%;
+    margin-bottom: 6rem;
+    position: relative;
+}
+
+#card p {
+    position: absolute;
+    margin-top: 10%;
+}
+
+#description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#pokedex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.input-filter-hidden {
+    display: none;
+}
+
+.input-filter {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    width: 100%;
+}
+
+.input-filter .label-filter-empty {
+    position: absolute;
+    margin-right: 9%;
+    margin-bottom: 4px;
+    transition: 1s;
+}
+
+.input-filter input:focus + label {
+    font-size: 12px;
+    color: #007bff;
+    margin-right: 12%;
+    transform: translateY(-185%);
+    transition: 1s;
+}
+
+.label-filter {
+    position: absolute;
+    font-size: 12px;
+    color: #007bff;
+    margin-right: 12%;
+    transform: translateY(-185%);
+}
+
+#filterPokemon {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 25px;
+    margin-right: 1%;
+    background-color:  #eceaea;
+    font-size: 1rem;
+    position: relative;
+}
+
+#magnify {
+    position: absolute;
+    align-self: center;
+    justify-content: center;
+    margin-right: 1%;
+}
+
+#list > li {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+li {
+    margin-left: 1rem;
+}
+
+.steel {
+    background-color: #f4f4f4;
+}
+
+.fire {
+    background-color: #FDDFDF;
+}
+
+.grass {
+    background-color: #DEFDE0;
+}
+
+.electric {
+    background-color: #FCF7DE;
+}
+
+.water,
+.ice {
+    background-color: #DEF3FD;
+}
+
+.ground {
+    background-color: #f4e7da;
+}
+
+.rock {
+    background-color: #d5d5d4;
+}
+
+.fairy {
+    background-color: #fceaff;
+}
+
+.poison {
+    background-color: #c4add6;
+}
+
+.bug {
+    background-color: #f8d5a3;
+}
+
+.dragon {
+    background-color: #97b3e6;
+}
+
+.psychic {
+    background-color: #eaeda1;
+}
+
+.flying {
+    background-color: #F5F5F5;
+}
+
+.fighting {
+    background-color: #E6E0D4;
+}
+
+.ghost {
+    background-color: #ebc2c2;
+}
+
+.normal {
+    background-color: #F5F5F5;
+}
